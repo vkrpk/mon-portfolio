@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/css/style.css">
+    <script src="https://kit.fontawesome.com/d73d3ebfb4.js" crossorigin="anonymous"></script>
+    <title>Voitures de location</title>
+</head>
+
+<body>
+
+    <div class="backToTop">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Header -->
+
+    <header id="top">
+        <img data-src="assets/media/background.jpg" alt="mercedes" id="slider-container">
+        <button class="burger"><i class="fas fa-bars"></i></button>
+        <div class="titres">
+            <h1>Bienvenue à bord</h1>
+            <h2>Location de voiture 24h/24 et 7j/7</h2>
+        </div>
+        <a href="#" class="burger"><i class="fas fa-bars"></i></a>
+        <nav class="menuDeroulant">
+            <ul>
+                <li>Louer une voiture</li>
+                <li>Louer un utilitaire</li>
+                <li>Réserver un chauffeur</li>
+                <li>Découvrer nos agences</li>
+                <li>Mon compte</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <!-- Recherche -->
+
+        <form class="recherche">
+            <span class="spanRecherche">
+                <select name="adresseDepart" id="selectAdresse">
+                    <option value="">Adresse de départ</option>
+                </select>
+                <div class="inputDate">
+                    <input type="date" value="Début de location">
+                </div>
+                <div class="inputDate">
+                    <input type="date" value="Fin de location">
+                </div>
+            </span>
+            <input type="submit" value="Valider ma recherche" class="sub">
+        </form>
+
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <div id="positionPrixCroissant">
+            <p>7 résultats</p>
+            <select name="prixCroissant" id="prixCroissant">
+                <option value="">Prix croissant</option>
+            </select>
+        </div>
+        <div class="centreDiv">
+            <div class="imgDiv">
+                <img data-src="assets/media/vehicule1.png" alt="Peugeot" class="mes-sliders">
+                <div class="fleche">
+                    <i class="suivants fas fa-caret-left arrow" array-img="slider1"></i>
+                    <i class="precedents fas fa-caret-right arrow " array-img="slider1"></i>
+                </div>
+            </div>
+            <div class="textDiv">
+                <div class="description">
+                    <h3>Peugot 208</h3>
+                    <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                        <br>999 € - Agence de Paris
+                    </p>
+                    <input type="submit" value="Réservez et Payer">
+                </div>
+            </div>
+        </div>
+        <div class="centreDiv">
+            <div class="imgDiv">
+                <img data-src="assets/media/vehicule2.png" alt="dacia" class="mes-sliders">
+                <div class="fleche">
+                    <i class="suivants fas fa-caret-left arrow" array-img="slider2"></i>
+                    <i class="precedents fas fa-caret-right arrow " array-img="slider2"></i>
+                </div>
+            </div>
+            <div class="textDiv">
+                <div class="description">
+                    <h3>Dacia</h3>
+                    <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                        <br>999 € - Agence de Paris
+                    </p>
+                    <input type="submit" value="Réservez et Payer">
+                </div>
+            </div>
+        </div>
+        <div class="centreDiv">
+            <div class="imgDiv">
+                <img data-src="assets/media/vehicule3.png" alt="audi" class="mes-sliders">
+                <div class="fleche">
+                    <i class="suivants fas fa-caret-left arrow" array-img="slider3"></i>
+                    <i class="precedents fas fa-caret-right arrow " array-img="slider3"></i>
+                </div>
+            </div>
+            <div class="textDiv">
+                <div class="description">
+                    <h3>Audi</h3>
+                    <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                        <br>999 € - Agence de Paris
+                    </p>
+                    <input type="submit" value="Réservez et Payer">
+                </div>
+            </div>
+        </div>
+        <div class="centreDiv">
+            <div class="imgDiv">
+                <img data-src="assets/media/vehicule4.png" alt="opel" class="mes-sliders">
+                <div class="fleche">
+                    <i class="suivants fas fa-caret-left arrow" array-img="slider4"></i>
+                    <i class="precedents fas fa-caret-right arrow " array-img="slider4"></i>
+                </div>
+            </div>
+            <div class="textDiv">
+                <div class="description">
+                    <h3>Opel</h3>
+                    <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                        <br>999 € - Agence de Paris
+                    </p>
+                    <input type="submit" value="Réservez et Payer">
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule1.png" alt="peugeot" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider1"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider1"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Peugot 208</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule2.png" alt="dacia" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider2"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider2"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Dacia</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule3.png" alt="audi" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider3"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider3"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Audi</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule4.png" alt="opel" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider4"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider4"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Opel</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule1.png" alt="peugeot" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider1"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider1"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Peugot 208</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule2.png" alt="dacia" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider2"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider2"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Dacia</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule3.png" alt="audi" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider3"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider3"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Audi</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+            <div class="centreDiv">
+                <div class="imgDiv">
+                    <img data-src="assets/media/vehicule4.png" alt="opel" class="mes-sliders">
+                    <div class="fleche">
+                        <i class="suivants fas fa-caret-left arrow" array-img="slider4"></i>
+                        <i class="precedents fas fa-caret-right arrow " array-img="slider4"></i>
+                    </div>
+                </div>
+                <div class="textDiv">
+                    <div class="description">
+                        <h3>Opel</h3>
+                        <p>Diesel, 5 portes, GPS AutoRadio, Forfait 1000 km (0,5/km supplémentaire).
+                            <br>999 € - Agence de Paris
+                        </p>
+                        <input type="submit" value="Réservez et Payer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <img data-src="assets/media/agence.jpg" alt="agende de Paris">
+        <div>
+            <p>
+                Notre agence de <span>Paris</span><br>
+                300 boulevard de vaugirard 75015, Paris<br>
+                Ouvert 7j/7 de 09h à 13h et de 14h à 20h<br>
+                01 49 78 28 33<br>
+                contact@vtc.com
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
