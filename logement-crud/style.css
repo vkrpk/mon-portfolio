@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: oldlace;
+}
+
+.form-style-1, div{
+	margin:60px ;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 input[type=file],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+    background-color: #fff;
+}
+
+.form-style-1 .field-select{
+	width: 100%;
+}
+
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.form-style-1 .required{
+	color:red;
+}
+
+a:visited{
+    color: inherit;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav a{
+    padding: 0 40px;
+    border-right: 1px solid #333;
+}
+
+nav{
+    width: 100%;
+    background-color: #4B99AD;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+table.blueTable {
+    border: 1px solid #333;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 80px;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    min-width: 100px;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  table.blueTable thead {
+    background: #4B99AD;
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: normal;
+    color: #FFFFFF;
+  }
+  .voir, #supprimer, #modifier{
+      white-space: nowrap;
+      text-decoration: underline;
+  }
+  #supprimer{
+      color: red;
+  }
+  #supprimer,#modifier,.voir:hover{
+      cursor: pointer;
+  }
+  h1{
+      margin: 0;
+      font-weight: normal;
+  }
+  img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 40px 0;
+  }
+  .logement{
+      max-width: 600px;
+  }
+  p{
+      margin: 5px 0;
+      font-size: 16px;
+  }
