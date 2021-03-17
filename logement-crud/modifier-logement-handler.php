@@ -50,7 +50,7 @@ if (
         header('location: creer-logement.php');
         die;
     }
-    $requete = 'UPDATE logement SET titre=?, adresse=?, ville=?, cp=?, surface=?, prix=?, photo=?, type=?, description=? WHERE id_logement=?';
+    $requete = 'UPDATE logement SET titre=?, adresse=?, ville=?, cp=?, surface=?, prix=?, type=?, description=? WHERE id_logement=?';
 
     $statement = $bdd->prepare($requete);
 

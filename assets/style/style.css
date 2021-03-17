@@ -23,7 +23,6 @@ html,body{
     scroll-behavior: smooth;
     color: #333;
     overflow-x: hidden;
-
 }
 
 a{
@@ -55,7 +54,6 @@ a:active{
 }
 
 #section-about-me{
-    border-top: 1px solid #e3e3e3;
     padding-top: 0;
 }
 
@@ -193,7 +191,7 @@ p{
 }
 
 
-.site-btn:hover, .site-btn.hover {
+.site-btn:hover{
     -webkit-box-shadow: 10px 10px 20px rgb(0 116 217 / 20%);
             box-shadow: 10px 10px 20px rgb(0 116 217 / 20%);
 }
@@ -249,13 +247,14 @@ h2{
     overflow: hidden;
     border: 1px solid #e3e3e3;
     border-radius: 5px;
+    position: relative;
 }
 
 .portfolio-img img{     
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    display: block;
+    vertical-align: bottom;
 }
 
 #portfolio{
@@ -304,14 +303,35 @@ footer div{
 }
 
 .open-site{
+    color: #0074D9;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .open-site:hover{
-    color: #0074D9;
+    text-decoration: underline;    
+}
+
+.text-underline{
     text-decoration: underline;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+
+.btn-img{
+    position: absolute;
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.btn-img a{
+    color: white;
+}
+
+h2{
+    color: #0074D9;
 }
 
 /* MEDIA QUERIES */

@@ -43,3 +43,5 @@ function cacherMenu() {
 for (let i = 0; i < liensMenu.length; i++) {
   liensMenu[i].addEventListener("click", cacherMenu)
 }
+
+
