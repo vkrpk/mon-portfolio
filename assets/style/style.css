@@ -302,16 +302,13 @@ footer div{
     padding: 0 20px;
 }
 
-.open-site{
-    color: #0074D9;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+figcaption a{
+    color: #0074D9 !important; 
 }
 
-.open-site:hover{
+figcaption a:hover{
     text-decoration: underline;    
-}
+} 
 
 .text-underline{
     text-decoration: underline;
@@ -323,7 +320,9 @@ footer div{
 .btn-img{
     position: absolute;
     top: 50%; left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
     opacity: 0.8;
 }
 
